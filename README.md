@@ -23,6 +23,7 @@ Projeto simples de CRUD (Create, Read, Update, Delete) desenvolvido em PHP com M
 1. Clone o repositório:
 ```bash
 git clone https://github.com/seu-usuario/php-crud-usuarios.git
+exit
 
 2. Configure o banco de dados:
 - Crie um banco MySQL
@@ -34,7 +35,10 @@ conexao.example.php → conexao.php
 - Preencha com seus dados do banco
 
 4. Inicie o servidor
-5. Acesse no navegador: http://localhost/seu-projeto
+5. Acesse no navegador:
+```bash
+http://localhost/seu-projeto
+exit
 
 ## Segurança
 Senhas devem ser armazenadas com hash (password_hash)
